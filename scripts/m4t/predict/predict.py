@@ -29,8 +29,7 @@ def main():
     parser.add_argument(
         "--src_lang",
         type=str,
-        help="Source language, only required if input is text.",
-        default=None,
+        help="Source language, only required if input is text."
     )
     parser.add_argument(
         "--output_path",
